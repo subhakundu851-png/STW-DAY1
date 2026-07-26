@@ -32,6 +32,9 @@ name:"Subha",
 age :23,
 isStudet: true 
 }
+
+//new coment
+
 console.log(typeof obj == typeof arr)
 
 const abc=null;
