@@ -29,11 +29,7 @@ console.log(typeof arr)
 
 const obj ={
 name:"Subha",
-<<<<<<< HEAD
-age :23,
-=======
 age :25,
->>>>>>> fca40f820c5980c81b621aa2e724c555ba573ef8
 isStudet: true 
 }
 
