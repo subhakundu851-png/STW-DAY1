@@ -40,4 +40,47 @@ console.log(abc==xyz)
 console.log(xyz)
 console.log(obj.name)
 console.log(obj.collage)
-console.log(obj.school.name)
+//console.log(obj.school.name)
+
+console.log('5'!=5)
+console.log("5"!==5)
+console.log('5'==5||obj.school.name)/* This is called short cercite and ans is true due to one of the condition is true */
+
+
+if(2>5){
+    console.log('math is wrong')
+}
+else{
+    console.log('This will print')
+    const str=''
+    //let confusion = '500'- "abc"
+    let confusion = 5/0
+    console.log("confusion")
+    if(str||confusion){
+        console.log("will it print?")
+    }
+}
+
+const marks = {
+    math : 90,
+    phys : 80,
+    chem : 85,
+    practical : {
+        phys : 99
+    }
+}
+let total = marks.math+marks.phys+marks.chem
+total+=(marks.practical && marks.practical.phys)||0
+console.log(total)
+
+console.log(true+1)
+console.log(true==1)
+console.log(true==2)
+
+console.log(5+parseInt('4a'))/*convert the 4a value in only integer*/
+console.log(0.3+0.5)
+console.log((0.3+0.5).toFixed(2))
+
+const newChar="Subha"
+console.log(newChar=="subha")
+console.log(newChar.toLowerCase()=="subha")
