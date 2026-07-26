@@ -29,7 +29,7 @@ console.log(typeof arr)
 
 const obj ={
 name:"Subha",
-age :20,
+age :23,
 isStudet: true 
 }
 console.log(typeof obj == typeof arr)
